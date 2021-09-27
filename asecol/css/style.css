@@ -276,6 +276,7 @@ section {
 /**** SERVICES ****/
 .services {
     position: relative;
+    background: #fbfbfe;
 }
 
 .services .floating-information {
@@ -349,6 +350,7 @@ section {
     border-radius: 0 0 .5rem .5rem;
     background: var(--verde);
 }
+
 
 /**** NEWS ****/
 #news{
@@ -519,6 +521,8 @@ section {
 }
 
 
+
+
 /* media queries */
 
 @media(max-width: 991px) {
@@ -596,6 +600,7 @@ section {
     .services .floating-information {
         display: none;
     }
+
     .column {
         width: 100%;
         display: block;
@@ -642,7 +647,6 @@ section {
         width: 80%;
         height: 10rem;
     }
-    
 }
 
 
@@ -653,8 +657,7 @@ section {
 
     .header a img {
         width: 120px;
-        
+
     }
-    
     
 }
